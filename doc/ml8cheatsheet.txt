@@ -1,7 +1,8 @@
 ##############################################################################
 # VIM CHEATSHEET
-# WEBSITE: http://www.vim.org/  
+# WEBSITE: http://www.vim.org/
 # DOCUMENTATION: https://vim.sourceforge.io/docs.php
+*ml8cheatsheet*
 ##############################################################################
 
 
@@ -236,7 +237,7 @@ set ic                      ignore case: turn on
 set noic                    ignore case: turn off
 :%s/old/new/g               replace all old with new throughout file
 :%s/old/new/gc              replace all old with new throughout file with confirmation
-:argdo %s/old/new/gc | wq   open multiple files and run this command to replace old 
+:argdo %s/old/new/gc | wq   open multiple files and run this command to replace old
                             with new in every file with confirmation, save and quit
 
 
@@ -480,7 +481,7 @@ CTRL-n              jump to the next empty tag / attribute
 
 
 cs'"                change surrounding quotes to double-quotes
-cs(}                change surrounding parens to braces 
+cs(}                change surrounding parens to braces
 cs({                change surrounding parens to braces with space
 ds'                 delete surrounding quotes
 dst                 delete surrounding tags
@@ -588,7 +589,7 @@ jj                  exit insertion mode
 
 <leader>/           clear the search register
 
-<leader>h           toggle hidden characters 
+<leader>h           toggle hidden characters
 
 <leader>W           strip all trailing whitespace
 
@@ -656,5 +657,5 @@ CTRL-y              go to next tag of attribute in sparkup plugin
 <leader>g           toggle Gundo window
 
 IMG<CR>             show image browser to insert image tag with src, width and height
-b                   insert image tag with dimensions from NERDTree 
+b                   insert image tag with dimensions from NERDTree
                     (http://stackoverflow.com/questions/5707925/vim-image-placement)
